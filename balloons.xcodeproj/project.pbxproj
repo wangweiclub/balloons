@@ -13,6 +13,7 @@
 		8B7AD03919E43FF400CFD1DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AD03819E43FF400CFD1DF /* Images.xcassets */; };
 		8B7AD03C19E43FF400CFD1DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AD03A19E43FF400CFD1DF /* LaunchScreen.xib */; };
 		8B7AD04819E43FF400CFD1DF /* balloonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AD04719E43FF400CFD1DF /* balloonsTests.swift */; };
+		8B7AD05219E44B6000CFD1DF /* BalloonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AD05119E44B6000CFD1DF /* BalloonStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8B7AD04119E43FF400CFD1DF /* balloonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = balloonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7AD04619E43FF400CFD1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B7AD04719E43FF400CFD1DF /* balloonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balloonsTests.swift; sourceTree = "<group>"; };
+		8B7AD05119E44B6000CFD1DF /* BalloonStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				8B7AD03119E43FF400CFD1DF /* AppDelegate.swift */,
 				8B7AD03319E43FF400CFD1DF /* ViewController.swift */,
+				8B7AD05119E44B6000CFD1DF /* BalloonStruct.swift */,
 				8B7AD03519E43FF400CFD1DF /* Main.storyboard */,
 				8B7AD03819E43FF400CFD1DF /* Images.xcassets */,
 				8B7AD03A19E43FF400CFD1DF /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7AD03419E43FF400CFD1DF /* ViewController.swift in Sources */,
+				8B7AD05219E44B6000CFD1DF /* BalloonStruct.swift in Sources */,
 				8B7AD03219E43FF400CFD1DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
