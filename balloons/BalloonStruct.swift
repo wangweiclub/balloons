@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Ballon{
+struct Balloon{
     var number=0
     var image=UIImage(named:"")
 }
