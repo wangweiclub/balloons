@@ -45,6 +45,15 @@
                                     <rect key="frame" x="128" y="105" width="144" height="20"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRC-A5-bCg">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="128" y="151" width="144" height="24"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -52,6 +61,7 @@
                                 <exclude reference="UYm-uU-jU9"/>
                                 <exclude reference="cAB-yq-M4G"/>
                                 <exclude reference="0vs-Nh-PHc"/>
+                                <exclude reference="VRC-A5-bCg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -59,6 +69,7 @@
                                 <include reference="UYm-uU-jU9"/>
                                 <include reference="cAB-yq-M4G"/>
                                 <include reference="0vs-Nh-PHc"/>
+                                <include reference="VRC-A5-bCg"/>
                             </mask>
                         </variation>
                     </view>
@@ -67,6 +78,7 @@
                     <connections>
                         <outlet property="ImageBalloons" destination="UYm-uU-jU9" id="O7A-Cm-Cd2"/>
                         <outlet property="LableBallons" destination="0vs-Nh-PHc" id="dYR-Rv-bpm"/>
+                        <outlet property="LableName" destination="VRC-A5-bCg" id="tYq-w6-TVr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
